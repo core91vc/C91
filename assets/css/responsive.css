@@ -52,6 +52,9 @@
         display: inherit;
     }
 
+    .about_area.black-bg::after {
+        font-size: 380px;
+    }
 }
 
 
@@ -106,9 +109,24 @@
         padding: 120px 0;
     }
 
-    .about_area {
+    /* .about_area {
         padding: 40px 0;
         padding-bottom: 400px;
+    } */
+    .about_area {
+        padding: 200px 0;
+        padding-bottom: 200px;
+    }
+
+    .about_area.black-bg::before {
+        width: 100%;
+    }
+
+    .about_area.black-bg::after {
+        font-size: 300px;
+        color: #000;
+        opacity: 0.1;
+        top: 40%;
     }
 
     .check_box {
@@ -127,10 +145,12 @@
         display: inherit;
     }
 
-    .about_area {
+    /* .about_area {
         height: auto;
         display: inherit;
-    }
+    } */
+
+
 }
 
 
@@ -240,6 +260,22 @@
     .about_area {
         height: auto;
         display: inherit;
+    }
+
+    .about_area {
+        padding: 100px 0;
+        padding-bottom: 100px;
+    }
+
+    .about_area.black-bg::before {
+        width: 100%;
+    }
+
+    .about_area.black-bg::after {
+        font-size: 200px;
+        color: #000;
+        opacity: 0.1;
+        top: 40%;
     }
 }
 
