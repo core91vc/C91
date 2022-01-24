@@ -296,12 +296,8 @@ body {
 	margin-bottom: 15px;
 }
 
-.hero-section h1 {
-	font-size: 120px;
-}
-
 .hero_section h1 {
-	font-size: 120px;
+	font-size: 90px;
 	font-weight: 900;
 	color: #fff;
 }
@@ -312,8 +308,30 @@ body {
 	padding: 0 265px;
 }
 
-.hero_section {
-	padding: 200px 0;
+.go-down {
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 5;
+}
+
+.go-up-down {
+	animation: up-down 2.5s 2s infinite;
+}
+
+@keyframes up-down {
+	0% {
+		transform: translateY(-50px);
+		opacity: 0.1;
+	}
+
+	100% {
+		transform: translateY(0px);
+		opacity: 1;
+	}
+
 }
 
 /* hero_area end style in here  */
@@ -512,36 +530,100 @@ body {
 	margin-bottom: 80px;
 }
 
+.team_area .team_titel {
+	color: #fff;
+}
+
 .team_area {
-	padding: 20% 0;
+	padding: 80px 0;
 }
 
 .team_img img {
 	width: 100%;
-	margin-bottom: 20px;
 }
 
 .team_item h3 a {
 	text-transform: capitalize;
-	font-weight: 400;
-	margin-bottom: 10px;
-	font-size: 24px;
+	font-weight: 600;
+	font-size: 30px;
+	display: block;
+	color: #FDCD36;
 }
 
-.team_item h3 a:hover {
-	color: inherit;
+.team_item h3 {
+	margin-bottom: 0;
 }
 
 .team_item h4 {
 	font-size: 16px;
 	font-weight: 600;
 	text-transform: uppercase;
-	line-height: 1.6;
+	line-height: 1.5;
+	color: #cccccc;
+}
+
+
+.team_item h3 a.bl-text {
+	color: #1A5CDB;
+}
+
+.team_item h3 a.gr-text {
+	color: #15CE49;
 }
 
 .team_item p {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 300;
+	color: #c6c6c6;
+}
+
+.team_img {
+	border: 1px solid #FDCD36;
+	box-shadow: -8px 8px 0px 0 #FDCD36;
+	margin-bottom: 20px;
+}
+
+.team_img.bl {
+	border-color: #1A5CDB;
+	box-shadow: -8px 8px 0px 0 #1A5CDB;
+}
+
+.team_img.gr {
+	border-color: #15CE49;
+	box-shadow: -8px 8px 0px 0 #15CE49;
+}
+
+
+.team-social {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.team-social li a {
+	padding: 10px 15px;
+	display: block;
+	font-size: 17px;
+	line-height: 1;
+	background: #ff9db9;
+	color: #fff;
+	transition: .3s;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-ms-transition: .3s;
+	-o-transition: .3s;
+}
+
+.team-social li a:hover {
+	opacity: .8;
+}
+
+.team-social li:nth-child(2) a {
+	background: #EE87A5;
+}
+
+.team-social li:nth-child(3) a {
+	background: #f07799;
 }
 
 /* team_Area end style in here  */

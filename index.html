@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- fontawesome css  -->
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <!-- animate-headline.css css  -->
+    <link rel="stylesheet" href="assets/css/animate-headline.css">
     <!-- main style css  -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- responsive css  -->
@@ -24,14 +26,25 @@
 <body>
 
     <!-- hero html start in here -->
-    <div class="hero_area black-bg">
+    <div class="hero_area black-bg pos-r">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="hero_section text-center">
-                    <!---    <h4>We are</h4> --->
-                        <h1>CORE91.VC</h1>
+                        <h1 class="cd-headline loading-bar">
+                            <span>We are</span>
+                            <span class="cd-words-wrapper">
+                                <b class="is-visible">CORE91.VC</b>
+                                <b>B2B SaaS Builders</b>
+                                <b>1st Check Partner</b>
+                            </span>
+                        </h1>
                     </div>
+                </div>
+                <div id="onepage-nav" class="go-down">
+                    <a href="#next-section">
+                        <img class="go-up-down" src="assets/img/icon/go-down.png" alt="">
+                    </a>
                 </div>
             </div>
         </div>
@@ -39,7 +52,7 @@
     <!-- hero html end in here -->
 
     <!-- about-section html start in here -->
-    <div class="about_area black-bg">
+    <div id="next-section" class="about_area black-bg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
@@ -163,12 +176,12 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <div class="brand_item">
-                        <a href="https://www.aerchain.io/"><img src="assets/img/brand-img/brand-img11.png" alt="FunctionUp"></a>
+                        <a href="https://www.functionup.org/"><img src="assets/img/brand-img/brand-img11.png" alt="FunctionUp"></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <div class="brand_item">
-                        <a href="https://www.aerchain.io/"><img src="assets/img/brand-img/brand-img12.png" alt="Swaypay"></a>
+                        <a href="https://www.swaypayapp.com/"><img src="assets/img/brand-img/brand-img12.png" alt="Swaypay"></a>
                     </div>
                 </div>
             </div>
@@ -178,41 +191,65 @@
 
 
     <!-- team-section html start in here -->
-    <div class="team_area">
+    <div class="team_area black-bg">
         <div class="container">
-          <center>
             <div class="row">
                 <div class="col-12">
                     <h1 class="team_titel">The Core91 TEAM</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 col-sm-1">
-                    <div class="team_item">
-                        <div class="team_img">
+                <div class="col-lg-4 col-md-4">
+                    <div class="team_item text-center">
+                        <div class="team_img pos-r">
                             <img src="assets/img/team-img/1.jpg " alt="">
+
+                            <ul class="team-social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
                         </div>
                         <h3><a href="#">Shalin Shah</a></h3>
                         <h4>Partner</h4>
                         <p>Shalin has been a career finance professional and investor with a special interest in early stage startup investing - some of the notable investments include coinbase and zoom.&nbsp;
-Past: Vice President @ Piramal/IndUS Growth Partners, Hedge Fund @ DCM Partners.</p>
+                        Past: Vice President @ Piramal/IndUS Growth Partners, Hedge Fund @ DCM Partners.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-sm-1">
-                    <div class="team_item">
-                        <div class="team_img">
+                <div class="col-lg-4 col-md-4">
+                    <div class="team_item text-center">
+                        <div class="team_img bl pos-r">
                             <img src="assets/img/team-img/2.jpg" alt="">
+                            <ul class="team-social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
                         </div>
-                        <h3><a href="#">Keshav Jain</a></h3>
+                        <h3><a href="#" class="bl-text" >Keshav Jain</a></h3>
                         <h4>Venture Partner</h4>
-                        <p>Keshav Jain is a finance professional with over a decade of experience in financing companies across their capital stack. In his last stint, Keshav helped co-found NeoDx, a molecular diagnostics venture.
-</p>
+                        <p>Keshav Jain is a finance professional with over a decade of experience in financing companies across their capital stack. In his last stint, Keshav helped co-found NeoDx, a molecular diagnostics venture.</p>
                     </div>
                 </div>
 
-            </div>          </center>
+                <div class="col-lg-4 col-md-4">
+                    <div class="team_item text-center">
+                        <div class="team_img gr pos-r">
+                            <img src="assets/img/team-img/3.jpg" alt="">
+                            <ul class="team-social">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                        <h3><a href="#" class="gr-text">Lorem ipsum.</a></h3>
+                        <h4>Lorem ipsum dolor.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consectetur.Lorem ipsum dolor sit amet. praesentium explicabo, veritatis at culpa, libero aperiam quaerat, quo rerum pariatur ipsa officia</p>
+                    </div>
+                </div>
 
+            </div>
         </div>
     </div>
     <!-- team-section html end in here -->
@@ -222,7 +259,7 @@ Past: Vice President @ Piramal/IndUS Growth Partners, Hedge Fund @ DCM Partners.
 
     <!-- footer html start in here -->
     <footer>
-        <div class="footer_area">
+        <div class="footer_area pt-80">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -262,10 +299,14 @@ Past: Vice President @ Piramal/IndUS Growth Partners, Hedge Fund @ DCM Partners.
     <script src="assets/js/popper.min.js"></script>
     <!-- bootstrap js  -->
     <script src="assets/js/bootstrap.min.js"></script>
+    <!-- animaed headline js -->
+    <script src="assets/js/animaed-headline.js"></script>
     <!-- scrollUp js -->
     <script src="assets/js/jquery.scrollUp.min.js"></script>
+    <!-- nav nav up -->
+    <script src="assets/js/jquery.nav.js"></script>
     <!-- main active js -->
-    <script src="assets/js/active.js"></script><a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647;"><i class="fas fa-angle-up"></i></a>
+    <script src="assets/js/active.js"></script>
 
 
 

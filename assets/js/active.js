@@ -12,6 +12,13 @@
         scrollText: '<i class="fas fa-angle-up"></i>', // Text for element
         activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
       });
+      
+    // onepage-nav
+    $('#onepage-nav').onePageNav({
+      currentClass: 'current',
+      changeHash: false,
+      scrollSpeed: 2000,
+  });
 
 
     
