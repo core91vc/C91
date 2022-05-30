@@ -9,7 +9,7 @@
     }
 
     .hero_section h1 {
-        font-size: 100px;
+        font-size: 80px;
     }
 
     .about_text p {
@@ -42,11 +42,6 @@
         margin-bottom: 5px;
     }
 
-    .hero_area {
-        height: auto;
-        display: inherit;
-    }
-
     .about_area {
         height: auto;
         display: inherit;
@@ -54,6 +49,10 @@
 
     .about_area.black-bg::after {
         font-size: 380px;
+    }
+
+    .check_item h1 {
+        font-size: 22px;
     }
 }
 
@@ -65,7 +64,7 @@
     }
 
     .hero_section h1 {
-        font-size: 100px;
+        font-size: 50px;
     }
 
     .about_text p {
@@ -105,10 +104,6 @@
         margin: 25px 10px;
     }
 
-    .hero_section {
-        padding: 120px 0;
-    }
-
     /* .about_area {
         padding: 40px 0;
         padding-bottom: 400px;
@@ -140,9 +135,9 @@
         margin-bottom: 20px;
     }
 
-    .hero_area {
-        height: auto;
-        display: inherit;
+    .team_item p {
+        font-size: 13px;
+        line-height: 1.6;
     }
 
     /* .about_area {
@@ -156,8 +151,13 @@
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
+    .team_item p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
     .hero_section h1 {
-        font-size: 40px;
+        font-size: 32px;
     }
 
     .hero_section p {
@@ -175,10 +175,6 @@
     .about_text h1 {
         font-size: 32px;
         font-weight: 900;
-    }
-
-    .hero_section {
-        padding: 80px 0;
     }
 
     .about_area {
@@ -252,10 +248,6 @@
         padding: 50px 0;
     }
 
-    .hero_area {
-        height: auto;
-        display: inherit;
-    }
 
     .about_area {
         height: auto;
