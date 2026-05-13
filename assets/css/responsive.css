@@ -12,6 +12,11 @@
         font-size: 80px;
     }
 
+    .about_text h1,
+    .about_text h2 {
+        font-size: 48px;
+    }
+
     .about_text p {
         padding-right: 0;
     }
@@ -51,7 +56,8 @@
         font-size: 380px;
     }
 
-    .check_item h1 {
+    .check_item h1,
+    .check_item h3 {
         font-size: 22px;
     }
 }
@@ -172,7 +178,8 @@
         padding-right: 0;
     }
 
-    .about_text h1 {
+    .about_text h1,
+    .about_text h2 {
         font-size: 32px;
         font-weight: 900;
     }
